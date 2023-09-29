@@ -47,31 +47,36 @@
                         Shop in
                     </button>
 
-
-
-                    <div class=" modal fade" id="myModal2" role="dialog">
-                        <div class="modal-dialog modal-sm">
+                    <div class="modal" id="myModal2" role="dialog">
+                        <div class="modal-dialog ">
 
                             <!-- Modal content-->
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h6 class="modal-title">Modal without Overlay</h6>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <p class="modal-title">Please select your Location</p>
+                                    <button type="button" class="close btn bg-white" data-dismiss="modal"><img src="public/templates/default/main/assets/images/icons/icon-close.png" alt=""></button>
                                 </div>
                                 <div class="modal-body">
-                                    <p>This modal has no overlay.</p>
-                                    <p><strong>Note:</strong> You cannot click outside of this modal to close it.</p>
+                                    <select name="money">
+                                        <option value="usa">Please select your shipping country or area</option>
+                                        <option value="usa">America(USD)</option>
+                                        <option value="vn">Vietnam(USD)</option>
+                                        <option value="canada">Canada(USD)</option>
+                                    </select>
+                                    <div class="submit_change">
+                                        <button type="submit">Continue Shopping</button>
+                                    </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
+                                    <p>Please be advised that changing your location while shopping will remove all contents from your Shopping Bag.</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </li>
 
-                <li class=" d-inline-block text-dark">
+                <li class="d-inline-block text-dark">
                     <button type="submit" class="bg-white border-0" onclick="location.href='Login'">
                         Login
                     </button>

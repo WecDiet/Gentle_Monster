@@ -1,0 +1,35 @@
+#myModal2{
+    width: 370px;
+    margin-left: 1155px;
+    margin-top: 50px;
+}
+.modal-header > p{
+    margin-top:10px;
+    font-size:16px;
+}
+.modal-body > select{
+    width:325px;
+    height:50px;
+    border:none;
+    border-bottom:1px solid black;
+    margin-top:10px;
+    margin-bottom:25px;
+    font-size:14px;
+    font-weight:100;
+    
+}
+.modal-body > select:active{
+    outline:none;
+}
+.submit_change > button{
+    width:325px;
+    height:50px;
+    background-color:black;
+    color:white;
+    font-size:15px;
+    font-weight:0;
+    margin-bottom:10px;
+}
+.modal-footer{
+    font-size:10px;
+}

@@ -13,7 +13,7 @@ const showHideIcons = () => {
 
 arrowIcons.forEach(icon => {
     icon.addEventListener("click", () => {
-        let firstImgWidth = firstImg.clientWidth + 2000; // getting first img width & adding 14 margin value
+        let firstImgWidth = firstImg.clientWidth + 3000; // getting first img width & adding 14 margin value
         // if clicked icon is left, reduce width value from the carousel scroll left else add to it
         carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth;
         setTimeout(() => showHideIcons(), 60); // calling showHideIcons after 60ms

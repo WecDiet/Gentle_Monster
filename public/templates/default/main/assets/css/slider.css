@@ -57,7 +57,7 @@
   border: 1px solid black;
 }
 .carousel{
-  /* height: 200px; */
+  /* max-width: 42%; */
   max-width: 54.5%;
 }
 .carousel > ul {
