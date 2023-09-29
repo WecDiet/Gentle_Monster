@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule		index 			index.php?module=default&controller=index&action=index
+RewriteRule		Sunglasses      index.php?module=default&controller=sunglasses&action=index
+RewriteRule		Glasses         index.php?module=default&controller=glasses&action=index
+RewriteRule		Collaborations  index.php?module=default&controller=collaborations&action=index
+RewriteRule		Styles          index.php?module=default&controller=styles&action=index
+RewriteRule		Stories         index.php?module=default&controller=stories&action=index
+RewriteRule		Stores          index.php?module=default&controller=stores&action=index
+RewriteRule		Services        index.php?module=default&controller=services&action=index
+RewriteRule		Cart            index.php?module=default&controller=cart&action=index
+RewriteRule		Wishlist        index.php?module=default&controller=wishlist&action=index
+RewriteRule		Login           index.php?module=default&controller=login&action=index
+
+
+
+
+
+
+
+
+
