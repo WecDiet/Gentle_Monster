@@ -11,6 +11,7 @@ class View
 	public $_metaName;
 	public $_cssFiles;
 	public $_jsFiles;
+	public $_fontFiles;
 	public $_dirImg;
 	public $_fileView;
 

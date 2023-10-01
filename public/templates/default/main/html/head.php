@@ -13,5 +13,7 @@
         echo $this->_cssFiles;
 
         echo $this->_jsFiles;
+        
+        echo $this->_fontFiles;
     ?>
 </head>
