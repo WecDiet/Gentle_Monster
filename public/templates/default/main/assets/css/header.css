@@ -61,14 +61,108 @@
   margin: 0 4px;
 }
 
-#myModal{
-  z-index: 999;
-}
+
+
 .modal-full-width {
-  width: 100%;
+  width: 1800px;
+  height: max-content;
   max-width: 100%;
   margin-top: -0.5px;
   border: 0px;
   box-sizing: border-box;
 
+}
+
+.modal-header > input{
+  width:40%;
+  height:40px;
+  margin-left:30%;
+  border-radius:50px;
+  text-indent:20px;
+  border: 0.5px solid;
+}
+
+
+.modal-header > button{
+  width: 28px;
+  height: 28px;
+  line-height: 20px; 
+  border-radius: 110px;
+}
+
+.modal-body-search{
+  width: 1500px;
+  height: 380px;
+  margin-left:35px;
+  margin-top: 40px;
+}
+
+.popular{
+  width: 15%;
+  box-sizing: border-box;
+}
+.popular > ul {
+  margin-top: 35px;
+}
+.popular > ul >li{
+  width: 150px;
+  height: fit-content;
+  margin-bottom: 13px;
+}
+.popular > ul >li >a{
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+.popular > ul >li >a:hover{
+  color: #9c9797;
+}
+
+
+
+
+.explore{
+  width: 400px;
+  height: 300px;
+
+}
+.control-box > .popular > p,
+.control-box > .explore > p
+{
+  color: #9c9797;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.explore > ul{
+  max-width:400px;
+  margin-top: 30px;
+}
+.explore > ul > li{
+  width: 90px;
+  height: 120px;
+  word-wrap: break-word;
+  display:inline-table;
+  text-align: center; 
+  margin-bottom: 32px;
+}
+.explore img{
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  padding: 3px;
+}
+.explore img:hover{
+  border: 1px solid black;
+}
+
+.title-search{
+  width: 90px;
+  height: max-content;
+  text-align: center;
+  word-wrap: break-word;
+  margin-left: 5px;
+  font-size: 13px;
+  font-weight: 500;
 }

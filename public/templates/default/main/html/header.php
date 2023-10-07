@@ -42,16 +42,99 @@
                     </button>
 
                     <div class="modal fade" id="myModal" role="dialog">
-                        <div class="modal-dialog modal-xl modal-full-width">
+                        <div class="modal-dialog modal-xl modal-full-width " style="position: absolute;">
 
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <input type="text" name="" id="" placeholder="Search.................">
-                                    <button type="button" class="close bg-dark" data-dismiss="modal" style="border-radius: 200px;"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></button>
+                                    <input type="text" name="" id="" placeholder="Search" maxlength="1000" size="2000">
+                                    <button type="button" class="close bg-dark" data-dismiss="modal"><i class="fa-solid fa-xmark" style="color: #ffffff;"></i></button>
                                 </div>
-                                <!-- <div class="modal-body">
-                                    <p>This modal has a dark overlay.</p>
-                                </div> -->
+                                <div class="modal-body-search">
+                                    <div class="control-box d-flex justify-content-center">
+                                        <div class="popular">
+                                            <p>Popular searches</p>
+                                            <ul class="list-unstyled">
+                                                <li><a href="">Rococo OR2</a></li>
+                                                <li><a href="">Cookie 01</a></li>
+                                                <li><a href="">Palette 01</a></li>
+                                                <li><a href="">Tam 01(G)</a></li>
+                                                <li><a href="">Bandoneon.S 01</a></li>
+                                                <li><a href="">Kubo 01</a></li>
+                                                <li><a href="">Alio X C1</a></li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="explore">
+                                            <p>Explore our:</p>
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div>
+                                                        <img class="rounded-circle" src="public/files/slider/col-1.jpg" alt="img" draggable="false">
+                                                    </div>
+                                                    <div class="title-search">
+                                                        <span>View all</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <img class="rounded-circle" src="public/files/slider/col-1.jpg" alt="img" draggable="false">
+                                                    </div>
+                                                    <div class="title-search">
+                                                        <span>View all</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <img class="rounded-circle" src="public/files/slider/col-1.jpg" alt="img" draggable="false">
+                                                    </div>
+                                                    <div class="title-search">
+                                                        <span>helooo xin chao aksnfkalngakgn</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <img class="rounded-circle" src="public/files/slider/col-1.jpg" alt="img" draggable="false">
+                                                    </div>
+                                                    <div class="title-search">
+                                                        <span>View all</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <img class="rounded-circle" src="public/files/slider/col-1.jpg" alt="img" draggable="false">
+                                                    </div>
+                                                    <div class="title-search">
+                                                        <span>View all</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <img class="rounded-circle" src="public/files/slider/col-1.jpg" alt="img" draggable="false">
+                                                    </div>
+                                                    <div class="title-search">
+                                                        <span>View all</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <img class="rounded-circle" src="public/files/slider/col-1.jpg" alt="img" draggable="false">
+                                                    </div>
+                                                    <div class="title-search">
+                                                        <span>helooo xin chao </span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div>
+                                                        <img class="rounded-circle" src="public/files/slider/col-1.jpg" alt="img" draggable="false">
+                                                    </div>
+                                                    <div class="title-search">
+                                                        <span>helooo xin chao </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>

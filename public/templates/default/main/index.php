@@ -10,9 +10,15 @@
     if ($this->_controllerName == 'sunglasses' || $this->_controllerName == 'glasses' || $this->_controllerName == 'collaborations' || $this->_controllerName == 'stories' || $this->_controllerName == 'stores') {
         require_once 'html/slider.php';
     }
-
     ?>
 
+
+
+
+
+    <?php
+        require_once 'html/footer.php'
+    ?>
 </body>
 
 </html>

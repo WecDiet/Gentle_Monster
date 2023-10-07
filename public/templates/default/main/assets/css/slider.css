@@ -4,6 +4,7 @@
 .wrapper{
   display: flex;
   justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 .wrapper i{
@@ -46,8 +47,8 @@
   pointer-events: none;
 }
 .carousel img{ 
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
   user-select: none;
   cursor: pointer;
@@ -78,7 +79,8 @@
   word-wrap: break-word;
   cursor: pointer;
   margin-left: 5px;
-  font-size: 14px;
+  margin-top: 7px;
+  font-size: 15px;
 }
 @media screen and (max-width: 900px) {
   .carousel img{
